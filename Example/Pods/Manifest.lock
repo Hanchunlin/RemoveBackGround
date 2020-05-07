@@ -1,0 +1,16 @@
+PODS:
+  - RemoveBackGround (0.1.0)
+
+DEPENDENCIES:
+  - RemoveBackGround (from `../`)
+
+EXTERNAL SOURCES:
+  RemoveBackGround:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RemoveBackGround: f7f4610dc197793dfbd53cc38571660a0a487633
+
+PODFILE CHECKSUM: ad518c0912df4bd166e6781734dd5c21bf976ccb
+
+COCOAPODS: 1.8.4

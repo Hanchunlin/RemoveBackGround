@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		040FAEF2202831AC8AD427CD /* Pods-RemoveBackGround_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoveBackGround_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RemoveBackGround_Tests/Pods-RemoveBackGround_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0CF1BAD499C322FACBF24C5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5802B6BDCDD85AC937CC4984 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0CF1BAD499C322FACBF24C5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5802B6BDCDD85AC937CC4984 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C205E6E3D8F648600C65B26 /* Pods_RemoveBackGround_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoveBackGround_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RemoveBackGround_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoveBackGround_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		715A2B5E6D770E5E356297BF /* Pods_RemoveBackGround_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoveBackGround_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BD652E2DFD4C03B447BB3B /* Pods-RemoveBackGround_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoveBackGround_Example.release.xcconfig"; path = "Target Support Files/Pods-RemoveBackGround_Example/Pods-RemoveBackGround_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD378DCB450671EC3EDB79CC /* Pods-RemoveBackGround_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoveBackGround_Example.debug.xcconfig"; path = "Target Support Files/Pods-RemoveBackGround_Example/Pods-RemoveBackGround_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA50A1D0C3FBF657D5864ED0 /* RemoveBackGround.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RemoveBackGround.podspec; path = ../RemoveBackGround.podspec; sourceTree = "<group>"; };
+		EA50A1D0C3FBF657D5864ED0 /* RemoveBackGround.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RemoveBackGround.podspec; path = ../RemoveBackGround.podspec; sourceTree = "<group>"; };
 		FF00982EB1090D1F979287E8 /* Pods-RemoveBackGround_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoveBackGround_Tests.release.xcconfig"; path = "Target Support Files/Pods-RemoveBackGround_Tests/Pods-RemoveBackGround_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				040FAEF2202831AC8AD427CD /* Pods-RemoveBackGround_Tests.debug.xcconfig */,
 				FF00982EB1090D1F979287E8 /* Pods-RemoveBackGround_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

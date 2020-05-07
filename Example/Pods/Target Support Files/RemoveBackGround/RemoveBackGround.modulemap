@@ -1,0 +1,6 @@
+framework module RemoveBackGround {
+  umbrella header "RemoveBackGround-umbrella.h"
+
+  export *
+  module * { export * }
+}

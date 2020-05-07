@@ -1,0 +1,6 @@
+framework module Pods_RemoveBackGround_Tests {
+  umbrella header "Pods-RemoveBackGround_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
