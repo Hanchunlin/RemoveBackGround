@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RemoveBackGround_Example' do
+  pod 'RemoveBackGround', :path => '../'
+
+  target 'RemoveBackGround_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
